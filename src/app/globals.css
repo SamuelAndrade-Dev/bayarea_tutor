@@ -6,39 +6,68 @@ body {
 }
 
 .container-top {
-  background-color: gray;
+  background-color: #e7e7e7;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 9vh;
-}
 
-.logo-text {
-  margin-left: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
+  .logo-text {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
 
-  .title-principal {
-    font-size: 1.4rem;
+    .logo-tutor {
+      width: 40px;
+    }
+
+    .title-principal {
+      font-size: 1.4rem;
+    }
   }
-}
 
-.input-search {
-  border: 2px solid black;
-  border-radius: 0.6rem;
-  color: black;
-  width: 30rem;
-  height: 2.5rem;
-}
+  .search-main {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    color: black;
+    width: 30rem;
+    height: 3rem;
 
-.ordem-list {
-  display: flex;
-  gap: 2rem;
-  margin-right: 1rem;
+    .search-item {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
 
-  svg {
-    width: 1.7rem;
-    height: 1.7rem;
+    .input-search-header {
+      width: 27rem;
+      height: 2.4rem;
+      border: none;
+    }
   }
+
+
+  .ordem-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 1rem;
+
+    svg {
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+
+    svg:hover {
+      width: 2rem;
+      height: 2rem;
+      color: white;
+    }
+  }
+
 }

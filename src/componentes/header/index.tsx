@@ -4,14 +4,19 @@ export function Header() {
         <div className="container-top">
             <div className="logo-text">
                 <a href="#">
-                    <img src="favicon.ico" alt="logo-tutor" width={40} />
+                    <img src="favicon.ico" alt="logo-tutor" className="logo-tutor" />
                 </a>
-                <a href="#">
-                    <h3 className="title-principal">Tutor</h3>
-                </a>
+                <Link href="/">
+                    <h2 className="logo-text">Tutor</h2>
+                </Link>
             </div>
-            <div className="search-principal">
-                <input type="search" className="input-search" placeholder="O que busca para agora?" />
+            <div className="search-main">
+                <button type="submit" className="search-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </button>
+                <input type="search" className="input-search-header" placeholder="Oi me ache aqui!" />
             </div>
             <div className="list-header">
                 <ul className="ordem-list">
@@ -32,6 +37,13 @@ export function Header() {
                         <a href="#" className="menu-header-principal">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" className="profile-header-principal">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                             </svg>
                         </a>
                     </li>
