@@ -1,5 +1,11 @@
 import "./globals.css";
 import { Header } from '../componentes/header/index'
+import { Poppins } from 'next/font/google'
+
+const mainFontFamily = Poppins({
+  weight: ['300', '400', '700'],
+  subsets: ['latin'],
+})
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -8,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={mainFontFamily.className}
       >
 
         <Header />

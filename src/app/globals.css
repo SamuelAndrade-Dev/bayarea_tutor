@@ -10,6 +10,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 9vh;
+}
+
+.logo-text {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+
+  .title-principal {
+    font-size: 1.4rem;
+  }
 }
 
 .input-search {
@@ -20,7 +32,11 @@ body {
   height: 2.5rem;
 }
 
-.list-header {
+.ordem-list {
+  display: flex;
+  gap: 2rem;
+  margin-right: 1rem;
+
   svg {
     width: 1.7rem;
     height: 1.7rem;
