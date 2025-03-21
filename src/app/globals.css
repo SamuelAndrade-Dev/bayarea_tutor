@@ -44,13 +44,20 @@ body {
       margin-left: 10px;
     }
 
-    .input-search-header {
-      width: 27rem;
-      height: 2.4rem;
-      border: none;
+    .type-input {
+      .input-search-header {
+        width: 27rem;
+        height: 2.4rem;
+        border: 0 none;
+        outline: 0;
+      }
+
     }
   }
 
+  .search-main:hover {
+    background-color: white;
+  }
 
   .ordem-list {
     display: flex;

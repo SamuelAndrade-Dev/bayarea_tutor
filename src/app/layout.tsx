@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     }
   }
 }
+
+//Parte de layout do next Js
 export default function RootLayout({
   children,
 }: Readonly<{
